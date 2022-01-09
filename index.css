@@ -36,6 +36,15 @@ body {
     overflow-y: scroll;
 }
 
+.avator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 65px;
+    border-radius: 50%;
+}
+
 
 
 
