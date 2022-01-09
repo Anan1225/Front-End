@@ -1,0 +1,69 @@
+/**
+* @name: index
+* @author: Anan
+* @date: 2022-01-09 14:30
+* @description：index
+* @update: 2022-01-09 14:30
+*/
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    border-right: 1px solid #999;
+    height: 100vh;
+}
+
+.title {
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2.5;
+    text-align: center;
+    color: #999;
+    border-bottom: 1px solid #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right {
+    flex: 1;
+    height: 100vh;
+}
+
+.top {
+    height: 60px;
+    border-bottom: 1px solid #999;
+}
+
+.right .bottom {
+    display: flex;
+}
+
+.right-letf {
+    width: 40%;
+    border-right: 1px solid #999;
+    height: calc(100vh - 60px);
+}
+
+.right-right {
+    flex: 1;
+}
