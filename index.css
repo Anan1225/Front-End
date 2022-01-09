@@ -66,6 +66,13 @@ body {
     justify-content: space-between;
 }
 
+.search {
+    height: 100%;
+    width: 20%;
+    line-height: 60px;
+    margin-right: 180px;
+}
+
 .right .bottom {
     display: flex;
 }
